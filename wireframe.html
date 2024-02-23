@@ -6,6 +6,46 @@
 
         <title>Award Epoxy Coating</title>
         <style>
+             .navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  
+  list-style: none;
+  margin: 0; 
+  background: rgb(3, 51, 67);
+}
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+.navigation a:hover {
+  background: #1565C0;
+}
+
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navigation {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255,0.3); 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+  }
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}
             title{
                 font-size: 6rem;
             }
@@ -42,9 +82,15 @@
     </head>
 
     <body>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
         <div id="wrapper">
             <header>
-                <h1>Award Epoxy Coating</h2>
+                <h1>Award Epoxy Coating</h1>
             </header>
             <main>
                 <h2>TRANSFORM YOUR GARAGE OR PATIO WITH AWARD-WINNING ELEGANCE. 
