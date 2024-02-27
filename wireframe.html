@@ -4,48 +4,48 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width"
 
-        <title>Award Epoxy Coating</title>
+        <title></title>
         <style>
-             .navigation {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-end;
-  
-  list-style: none;
-  margin: 0; 
-  background: rgb(3, 51, 67);
-}
-.navigation a {
-  text-decoration: none;
-  display: block;
-  padding: 1em;
-  color: white;
-}
-.navigation a:hover {
-  background: #1565C0;
-}
+          .navigation {
+              display: flex;
+              flex-flow: row wrap;
+              justify-content: flex-end;
+              
+              list-style: none;
+              margin: 0; 
+              background: rgb(3, 51, 67);
+            }
+          .navigation a {
+              text-decoration: none;
+              display: block;
+              padding: 1em;
+              color: white;
+            }
+            .navigation a:hover {
+              background: #1565C0;
+            }
 
-@media all and (max-width: 800px) {
-  .navigation {
-    justify-content: space-around;
-  }
-}
+            @media all and (max-width: 800px) {
+              .navigation {
+                justify-content: space-around;
+              }
+            }
 
-@media all and (max-width: 600px) {
-  .navigation {
-    flex-flow: column wrap;
-    padding: 0;
-  }
-  .navigation a { 
-    text-align: center; 
-    padding: 10px;
-    border-top: 1px solid rgba(255, 255, 255,0.3); 
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
-  }
-  .navigation li:last-of-type a {
-    border-bottom: none;
-  }
-}
+            @media all and (max-width: 600px) {
+              .navigation {
+                flex-flow: column wrap;
+                padding: 0;
+              }
+              .navigation a { 
+                text-align: center; 
+                padding: 10px;
+                border-top: 1px solid rgba(255, 255, 255,0.3); 
+                border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+              }
+              .navigation li:last-of-type a {
+                border-bottom: none;
+              }
+            }
             title{
                 font-size: 6rem;
             }
@@ -76,7 +76,42 @@
             p, div { 
                 border: 2px solid #085abe;
                 padding: 5px;
+            h5{
+              font-size: 1.5em;
             }
+            }
+            .flex-container {
+  /* We first create a flex layout context */
+  display: flex;
+  
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+  background:rgba(124, 161, 205, 0.667);
+  padding: 5px;
+  width: 350px;
+  height: 200px;
+  margin-top: 10px;
+  line-height: 15px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
         </style>
 
     </head>
@@ -97,12 +132,18 @@
                     DISCOVER THE AWARD COATINGS DIFFERENCE IN EPOXY FLOORING!</h2>
                 <h3>Epoxy and Flake Floors in as little as one day</h3>
                 <p>Epoxy floor coating technology has come a long way over the past few years. Our wide range of floor coatings and custom garage storage solutions are designed to create elegance for both your home & office.</p>
-                <h3>Commercial Epoxy Coating</h3>
-                    <image>image</image>
-                    <p>In business, first impressions mean everything. If you miss that critical moment to ‘wow’ your guests, chances are you’ll also miss the sale or the referral. Convert visitors to customers with Award Epoxy Coatings and create a floor that’s more than aesthetic. It’s an experience.</p>
-                <h3>Residential Epoxy Coating</h3>
-                    <image>image</image>
+                <ul class="flex-container">
+                  <li class="flex-item">
+                    <h5>Residential Epoxy Coating</h3>
                     <p>Create your dream, custom floor with Award Coatings. From epoxy floor coatings to state-of-the-art Polyaspartic applications, you can sit back, relax and watch your dream garage come to life. In most cases, in only one day.</p>
+                  </li>
+                  <li class="flex-item">
+                    <h5>Commercial Epoxy Coating</h3>
+                    <p>In business, first impressions mean everything. If you miss that critical moment to wow your guests, chances are you will also miss the sale or the referral. Convert visitors to customers with Award Epoxy Coatings and create a floor that is more than aesthetic.</p>
+                  </li>
+
+                </ul>  
+                
                 <h3>What to Expect From Start to Finish</h3>
                     <image>image</image>
                     <p>Free Consulation and Assessment,  
