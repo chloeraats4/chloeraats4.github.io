@@ -77,7 +77,8 @@
                 margin: 10px;
             }
             p, div { 
-                border: 2px solid #085abe;
+                border: 2px solid rgba(124, 161, 205, 0.667
+                );
                 padding: 5px;
             h5{
               font-size: 1.8em;
@@ -111,6 +112,41 @@
   padding: 5px;
   width: 450px;
   height: 200px;
+  margin-top: 10px;
+  line-height: 15px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+
+            .choose {
+              p{
+                border:rgba(124, 161, 205, 0.667)
+              }
+  /* We first create a flex layout context */
+  display: flex;
+  
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.flex-2 {
+  background:rgba(124, 161, 205, 0.667);
+  padding: 5px;
+  width: 200px;
+  height: 150px;
   margin-top: 10px;
   line-height: 15px;
   color: rgb(0, 0, 0);
@@ -160,15 +196,24 @@
                     100% Satisfaction
                     </p>
                 <h3>Choose Award Coatings</h3>
+                <ul class="choose">
+                  <li class="flex-2">
                   <h4>Lifetime warranty</h4>
                     <p>In our industry a lifetime warranty is not often offered. Get lifetime warranty with your floor coating project.</p>
+                  </li>
+                  <li class="flex-2">
                   <h4>Professional and Friendly</h4>
                     <p>Our team will care for your project and your property and the job will not be done until you are satisfied.</p>
+                  </li>
+                  <li class="flex-2">
                   <h4>Expert Installers</h4>
                     <p>We are experienced and thorough with every floor coating and project we do.</p>
-                  <h4>High-Quality Products</h4>
+                  </li>
+                  <li class="flex-2">
+                    <h4>High-Quality Products</h4>
                     <p>We use only premium grade, industry leading products that we can confidently warranty for life.</p>
-
+                  </li>
+                  </ul>
             </main>
             <footer>
                 <h4>Call us Today for a Free Quote!</h4>
