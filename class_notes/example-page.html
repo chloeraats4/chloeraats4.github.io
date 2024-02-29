@@ -4,12 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Example Page</title>
+    <!-- delete after style sheet shown to work
+      <style>
+      header{
+        background-color: rgb(225, 167, 206);
+        height: 20px
+      }
+    </style> -->
+    <link rel="stylesheet" href="css/example-style.css"
   </head>
   <body>
+    <!-- all seen code has to be inside the body. NEVER outside -->
     <!-- always validate your code here https://validator.w3.org/#validate_by_input -->
     <!-- add wrapper to handle desktop sizen-->
     <div id="wrapper">
       <header>
+        Header
         <!-- TODO: add logo and menu later -->
       </header>
       <main>
@@ -19,9 +29,13 @@
           <li>box 2</li>
           <li>box 3</li>
           <li>box 4</li>
-          <li>box 5</li>
+          <!-- youtube code creates error -->
+          <li><iframe src="https://www.youtube.com/embed/cTIvHN-HXmE?si=d1y-GhI4txWJvvjg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
         </ul>
+        <p>paragraph</p>
+
       </main>
+      <footer>Footer</footer>
     </div>
   </body>
 </html>
