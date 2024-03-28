@@ -1,9 +1,13 @@
+    *{
+    margin: 0px;
+    padding: 0px;
+    }
     footer {
     text-align: center;
     padding: 20px 10px;
     background-color: #7aa3d1;
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1em;
     }
     small {
     display: inline-block;
