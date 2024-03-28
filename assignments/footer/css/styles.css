@@ -1,6 +1,10 @@
     *{
     margin: 0px;
     padding: 0px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
     }
     footer {
     text-align: center;
