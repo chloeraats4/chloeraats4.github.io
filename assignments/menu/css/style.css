@@ -10,7 +10,7 @@ menu {
 }
 
 header {
-  background-color: #fff2d7;
+  background-color: #fff;
   color: #333;
   padding: 10px 20px;
   display: flex;
@@ -20,10 +20,15 @@ header {
 .menu-toggle {
   cursor: pointer;
   font-size: 30px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
 }
 
 .nav-menu {
-  display: none;
+  position: fixed;
+  top: 20px;
+  right: 20px;
 }
 
 .nav-menu.active {
@@ -33,6 +38,11 @@ header {
 .nav-menu ul {
   list-style-type: none;
   margin-top: 8px;
+}
+
+.nav-menu li{
+  margin-bottom: 10px;
+  margin-top: 5px;
 }
 
 .nav-menu li a {
