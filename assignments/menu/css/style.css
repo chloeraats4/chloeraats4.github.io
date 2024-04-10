@@ -49,8 +49,6 @@ header {
   border-bottom: 1px solid #7aa3d1;
 }
 
-/* This css is used for window size of 768 and wider.
-Note: how it is listed at bottom of css */
 @media (min-width: 800px) {
   .menu-toggle {
     display: none;
