@@ -14,7 +14,7 @@ header {
   color: #333;
   padding: 10px 20px;
   display: flex;
-  flex-flow: column;
+  flex-flow: column ;
 }
 
 .menu-toggle {
@@ -26,6 +26,7 @@ header {
 }
 
 .nav-menu {
+  display: none;
   position: fixed;
   top: 20px;
   right: 20px;
