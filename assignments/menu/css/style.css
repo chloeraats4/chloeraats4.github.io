@@ -38,13 +38,13 @@ nav {
 
 .nav-links {
   flex: 1;
-  text-align: center;
+  text-align: right;
 }
 
 .nav-links ul li {
   list-style: none;
   display: inline-block;
-  padding: 8px 12 px;
+  padding: 8px 12px;
   position: relative;
 }
 
@@ -104,14 +104,14 @@ nav.fa {
   border-bottom: 1px solid #7aa3d1;
 } */
 
-@media (min-width: 800px) {
+@media (max-width: 800px) {
   .nav-links ul li {
     display: block;
     transition: 0.2s;
   }
 
   .nav-links ul li: hover {
-    border-left: 6px solid #163mrl;
+    border-left: 6px solid #333;
   }
 
   .nav-links ul li ::after {
