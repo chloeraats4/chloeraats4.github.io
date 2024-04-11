@@ -1,20 +1,20 @@
-* {
+*{
   margin: 0px;
   padding: 0px;
   font-family: "Merriweather", serif;
   font-style: normal;
 }
 
-body{
+body {
   max-width: 1024px;
   margin: 0 auto;
 }
 
-ul{
+ul {
   list-style-type: none;
 }
 
-header{
+header {
   background-color: #fff;
   color: #333;
   padding: 10px 20px;
@@ -29,27 +29,27 @@ header{
   top: 20px;
   right: 20px;
 } */
-nav{
+nav {
   display: flex;
   padding: 2% 6%;
   justify-content: right;
   align-items: center;
 }
 
-.nav-links{
+.nav-links {
   flex: 1;
   text-align: center;
 }
 
-.nav-links ul li{
+.nav-links ul li {
   list-style: none;
   display: inline-block;
   padding: 8px 12 px;
   position: relative;
 }
 
-.nav-links ul li a{
-  color:#333;
+.nav-links ul li a {
+  color: #333;
   text-decoration: none;
   font-size: 1rem;
 }
@@ -68,7 +68,7 @@ nav{
   width: 100%;
 }
 
-nav.fa{
+nav.fa {
   display: none;
 }
 
@@ -104,23 +104,23 @@ nav.fa{
   border-bottom: 1px solid #7aa3d1;
 } */
 
-@media (min-width: 800px){
-  .nav-links ul li{
+@media (min-width: 800px) {
+  .nav-links ul li {
     display: block;
     transition: 0.2s;
   }
 
-  .nav-links ul li: hover{
+  .nav-links ul li: hover {
     border-left: 6px solid #163mrl;
   }
 
-  .nav-links ul li ::after{
-    display:none;
+  .nav-links ul li ::after {
+    display: none;
   }
 
-  .nav-links{
+  .nav-links {
     position: absolute;
-    background-color:aliceblue;
+    background-color: aliceblue;
     height: 1000px;
     width: 200px;
     top: 0;
@@ -131,9 +131,9 @@ nav.fa{
     display: none;
   }
 
-  nav.fa{
+  nav.fa {
     display: block;
-    color:black;
+    color: black;
     font-size: 1.3rem;
     margin: 10px;
     cursor: pointer;
