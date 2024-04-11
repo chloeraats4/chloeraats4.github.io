@@ -15,20 +15,13 @@ ul {
 }
 
 header {
-  background-color: #fff;
+  background-color: #333;
   color: #333;
   padding: 10px 20px;
   display: flex;
   flex-flow: column;
 }
-/* 
-.menu-toggle {
-  cursor: pointer;
-  font-size: 30px;
-  position: fixed;
-  top: 20px;
-  right: 20px;
-} */
+
 nav {
   display: flex;
   padding: 2% 6%;
@@ -104,13 +97,13 @@ nav.fa {
   border-bottom: 1px solid #7aa3d1;
 } */
 
-@media (max-width: 800px) {
+@media (max-width: 800px){
   .nav-links ul li {
     display: block;
     transition: 0.2s;
   }
 
-  .nav-links ul li: hover {
+  .nav-links ul li:hover{
     border-left: 6px solid #333;
   }
 
