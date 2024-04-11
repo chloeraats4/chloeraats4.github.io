@@ -24,8 +24,34 @@ header {
   top: 20px;
   right: 20px;
 }
-
-.nav-menu {
+.nav-links {
+  flex: 1 ;
+  text-align: center;
+}
+.nav-links ul li{
+  list-style: none;
+  display:inline-block;
+  padding: 8px 12 px;
+  position: relative;
+}
+.nav-links ul li a{
+  color:#fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.nav-links ul li::after {
+  content: "";
+  width:0%;
+  height:2px;
+  background-color: #fff;
+  display: block;
+  margin: auto;
+  transition: .5s;
+}
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+/* .nav-menu {
   display: none;
   position: fixed;
   top: 20px;
@@ -55,7 +81,7 @@ header {
 
 .nav-menu li a:hover {
   border-bottom: 1px solid #7aa3d1;
-}
+} */
 
 @media (min-width: 800px) {
   .menu-toggle {
