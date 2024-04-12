@@ -5,5 +5,5 @@ function showMenu(){
     navLinks.style.display = "block";
 }
 function hideMenu(){
-    navlinks.style.display="none";
+    navLinks.style.display="none";
 }
