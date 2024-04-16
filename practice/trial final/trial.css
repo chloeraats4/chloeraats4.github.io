@@ -4,7 +4,7 @@
     font-family: "merriweather", serif;
     font-style: normal;
   }
-    footer {
+    header, footer {
     text-align: center;
     padding: 20px 10px;
     background-color: #7aa3d1;
