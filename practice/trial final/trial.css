@@ -5,7 +5,7 @@
     font-weight: weight;
     font-style: normal;
   }
-  footer {
+    footer {
     text-align: center;
     padding: 20px 10px;
     background-color: #7aa3d1;
@@ -111,4 +111,23 @@ body {
       cursor: pointer;
     }
   }
-  
+  main{
+    margin: 10px;
+  }
+  .flex-container{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style: none;
+  }
+
+  .flex-item{
+    background-color: #7aa3d1;
+    padding: 5px;
+    width: 450px;
+    height: 200px;
+    margin-top: 10px;
+    line-height: 25px;
+    text-align: center;
+
+  }
