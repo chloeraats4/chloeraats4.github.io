@@ -65,38 +65,6 @@ nav .fa {
   display: none;
 }
 
-/* .nav-menu {
-  display: none;
-  position: fixed;
-  top: 20px;
-  right: 20px;
-}
-
-.nav-menu.active {
-  display: block;
-}
-
-.nav-menu ul {
-  list-style-type: none;
-  margin-top: 8px;
-}
-
-.nav-menu li {
-  display: inline;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-.nav-menu li a {
-  color: #333;
-  text-decoration: none;
-  text-align: center;
-}
-
-.nav-menu li a:hover {
-  border-bottom: 1px solid #7aa3d1;
-} */
-
 @media (max-width: 800px){
   .nav-links ul li {
     display: block;
