@@ -7,7 +7,7 @@
     header, footer {
     text-align: center;
     padding: 20px 10px;
-    background-color: #7aa3d1;
+    background-color: #7ca1cdaa;
     text-align: center;
     font-size: 1em;
   }
@@ -52,7 +52,7 @@ body {
   }
   
   .nav-links ul li a {
-    color: #6c96b5;
+    color: #7ca1cdaa;
     text-decoration: none;
     font-size: 1rem;
   }
@@ -121,7 +121,7 @@ body {
   }
 
   .flex-item{
-    background-color: #7aa3d1;
+    background-color: #7ca1cdaa;
     padding: 5px;
     width: 305px;
     height: 400px;
