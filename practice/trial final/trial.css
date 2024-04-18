@@ -9,7 +9,7 @@
     padding: 20px 10px;
     background-color: #7ca1cdaa;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.5em;
   }
   small {
     display: inline-block;
@@ -111,9 +111,11 @@ body {
       cursor: pointer;
     }
   }
+
   main{
     margin: 10px;
   }
+
   .flex-container{
     display:flex;
     flex-flow: row wrap;
@@ -141,7 +143,37 @@ body {
     padding: 10px 20px;
   }
 
-  div{
-    margin-top: 100px;
-    padding: 10px;
+  .beforeafter{
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Expect{
+    font-size: 1.1em;
+    padding: 10px 20px;
+  }
+
+  ul li{
+    margin-bottom: 10px;
+  }
+
+  .choose{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 10px;
+    list-style: none;
+  }
+
+  .flex{
+    background: #7ca1cdaa;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 15px;
+    text-align: center;
   }
