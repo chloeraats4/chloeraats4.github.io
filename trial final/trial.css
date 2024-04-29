@@ -17,7 +17,8 @@ small {
   display: inline-block;
 }
 
-h1,h5 {
+h1,
+h5 {
   text-align: center;
   background-color: #6c96b5;
   font-size: 4em;
