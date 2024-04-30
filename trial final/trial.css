@@ -10,7 +10,7 @@ footer {
   color: #fff;
   padding: 20px 10px;
   background-color: #6c96b5;
-  font-size: 1em;
+  font-size: 1.3em;
 }
 
 small {
@@ -145,8 +145,8 @@ main {
 .flex-item {
   background-color: #7ca1cdaa;
   padding: 5px;
-  width: 305px;
-  height: 420px;
+  width: 405px;
+  height: 750px;
   margin-top: 10px;
   line-height: 25px;
   text-align: center;
@@ -204,14 +204,13 @@ ul li {
   margin-top: 10px;
   line-height: 22px;/*space between lines*/
   text-align: center;
-  
 }
 
 .colors{
   width: 100%;
 }
 
-/* this is for contact form */
+/* this is for contact form, I got this from w3schools */
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   width: 100%; 
