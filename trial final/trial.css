@@ -202,8 +202,9 @@ ul li {
   width: 350px;
   height: 150px;
   margin-top: 10px;
-  line-height: 15px;
+  line-height: 22px;/*space between lines*/
   text-align: center;
+  
 }
 
 .colors{
