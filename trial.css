@@ -1,8 +1,10 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: "merriweather", serif;
-  font-style: normal;
+  /* font-family: "Merriweather", serif;
+  font-weight: 300; */
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
 }
 
 footer {
@@ -15,6 +17,14 @@ footer {
 
 small {
   display: inline-block;
+}
+
+.material-symbols-outlined {/*phone icon in footer - from google fonts*/
+font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0, 
+  'opsz' 24 /*optical sizing*/
 }
 
 h1,
@@ -146,7 +156,7 @@ main {
   background-color: #7ca1cdaa;
   padding: 5px;
   width: 405px;
-  height: 750px;
+  height: 770px;
   margin-top: 10px;
   line-height: 25px;
   text-align: center;
