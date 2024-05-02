@@ -26,7 +26,7 @@ h1,
 h5 {
   text-align: center;
   background-color: #6c96b5;
-  font-size: 4rem;
+  font-size: 3.6rem;
   color: #fff;
   padding: 20px 10px;
 }
@@ -60,7 +60,7 @@ nav {
   align-items: center;
 }
 
-.nav-links {
+.nav-links { 
   flex: 1; /*default for grow, shrink, basis*/
   text-align: right;
 }
