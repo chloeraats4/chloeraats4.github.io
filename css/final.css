@@ -10,7 +10,7 @@ footer {
   color: #fff;
   padding: 20px 10px;
   background-color: #6c96b5;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 small {
@@ -26,13 +26,13 @@ h1,
 h5 {
   text-align: center;
   background-color: #6c96b5;
-  font-size: 4em;
+  font-size: 4rem;
   color: #fff;
   padding: 20px 10px;
 }
 
 h5 {
-  font-size: 1.4em;
+  font-size: 1.4rem;
   line-height: 30px;
 }
 
@@ -160,12 +160,12 @@ main {
 }
 
 h3 {
-  font-size: 1.8em;
+  font-size: 1.8rem;
   padding: 10px 20px;
 }
 
 p {
-  font-size: 1em;
+  font-size: 1rem;
   padding: 10px 20px;
 }
 
@@ -186,7 +186,7 @@ p {
 }
 
 .Expect {
-  font-size: 1.1em;
+  font-size: 1.1rem;
   padding: 10px 20px;
 }
 
