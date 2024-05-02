@@ -55,7 +55,7 @@ header {
 nav {
   background-color: #fff;
   display: flex; /* aligns it with logo*/
-  padding: 2% 6%;
+  padding: 15px;
   justify-content: space-between;
   align-items: center;
 }
@@ -97,7 +97,7 @@ nav .fa {
   display: none; /*hide/show icons*/
 }
 
-@media (max-width: 960px) {
+@media (max-width: 880px) {
   /*width before it goes to hamburger*/
   .nav-links ul li {
     display: block;
