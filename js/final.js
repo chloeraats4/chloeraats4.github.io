@@ -1,8 +1,8 @@
-var navLinks = document.getElementById("navlinks");
+var navlinks = document.getElementById("navlinks");
 
 function showmenu() {
-  navLinks.style.display = "block";
+  navlinks.style.display = "block";
 }
 function hidemenu() {
-  navLinks.style.display = "none";
+  navlinks.style.display = "none";
 }
